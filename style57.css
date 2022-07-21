@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.container{
+    width: 80%;
+    
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo{
+    
+    width: 10%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+
+}
+.img-curved{
+    border-radius: 15px;
+    
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #fff;
+}
+.menu ul{
+    list-style: none;
+
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.menu{
+    line-height: 60px;
+    padding: 1%;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4752;
+}
+h3{
+    font-size: 1.5rem;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius:5px;
+    
+
+}
+.btn-primary{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+
+ /* cursor pointer is used because when we point a cursor towards a button the arrow cursor changes to hand sign */
+
+}
+.btn-primary:hover{
+    background-color: pink;
+
+}
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+/*CSS food search*/
+.food-search{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+h2{
+    color: black;
+    font-size: 2rem;
+}
+/*  CSS For categories*/
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+.food-menu-box{
+    
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.food-menu{
+    background-color: lightgrey;
+    padding: 4% 0;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+}
+.food-menu-disc{
+    width: 70%;
+    float: left;
+    margin: 8%;
+    
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 0.8rem;
+    color: black;
+}
+
+/* CSS for social */
+.social ul li{
+    display: inline; /* display inline was used to arrange facebook instagram twitter in a line so that it is looking good */
+    font-weight: bold;
+    padding: 1%;
+}
+.social ul{
+    list-style: none;
+}
+.social img:hover{
+    background-color: red;
+    transition: 0.5s; /* This is used for backgroung color when we over a cursor on them */
+    transform: translateY(-10px);/* This is used for hover towards upward direction */
+}
+
